@@ -6,7 +6,7 @@
 }
 
 .btn {
-  @apply flex items-center gap-1 px-3 py-1 rounded-full text-sm font-medium transition-colors;
+  @apply flex items-center gap-1 px-3 py-2 rounded-full text-sm font-medium transition-colors;
 }
 
 .hero {
