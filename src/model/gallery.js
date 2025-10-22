@@ -1,210 +1,262 @@
+import animal1 from '../assets/animal1.jpg'
+import animal2 from '../assets/animal2.jpg'
+import animal3 from '../assets/animal3.jpg'
+import animal4 from '../assets/animal4.jpg'
+import animal5 from '../assets/animal5.jpg'
+import architecture1 from '../assets/architecture1.jpg'
+import architecture2 from '../assets/architecture2.jpg'
+import architecture3 from '../assets/architecture3.jpg'
+import architecture4 from '../assets/architecture4.jpg'
+import architecture5 from '../assets/architecture5.jpg'
+import nature1 from '../assets/nature1.jpg'
+import nature2 from '../assets/nature2.jpg'
+import nature3 from '../assets/nature3.jpg'
+import nature4 from '../assets/nature4.jpg'
+import nature5 from '../assets/nature5.jpg'
+import people1 from '../assets/people1.jpg'
+import people2 from '../assets/people2.jpg'
+import people3 from '../assets/people3.jpg'
+import people4 from '../assets/people4.jpg'
+import people5 from '../assets/people5.jpg'
+import techno1 from '../assets/techno1.jpg'
+import techno2 from '../assets/techno2.jpg'
+import techno3 from '../assets/techno3.jpg'
+import techno4 from '../assets/techno4.jpg'
+import techno5 from '../assets/techno5.jpg'
+
 const gallery = [
   {
     id: 1,
     title: "chaton",
-    imgpath: "../assets/animal1.jpg",
+    src: animal1,
     description: "chaton mignon",
-    likeNumber:0 ,
+    likes: 0,
+    dislikes: 0,
     category: "animals",
   },
     {
         id: 2,
         title: "sourire",
-        imgpath: "../assets/people2.jpg",
+        src: people2,
         description: "souri a la vie et la vie te sourira",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "people",
     },
     {
         id: 3,
         title: "montagne",
-        imgpath: "../assets/nature2.jpg",
+        src: nature2,
         description: "belle montagne",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "nature",
     },
     {
         id: 4,
         title: "un ourse ",
-        imgpath: "../assets/animal2.jpg",
+        src: animal2,
         description: "un ourse qui dit salam alikouml",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "animals",
     },
     {
         id: 5,
         title: "pont",
-        imgpath: "../assets/architecture4.jpg",
+        src: architecture4,
         description: "un pont qui relie deux monde", 
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "architecture",
     },
     {
         id: 6,
         title: "Machin Learning",
-        imgpath: "../assets/techno2.jpg",
+        src: techno2,
         description: "le futur est la",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "technology",
     },
      {
         id: 7,
         title: "coucher de soleil",
-        imgpath: "../assets/nature3.jpg",
+        src: nature3,
         description: "coucher de soleil sur la montagne",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "nature",
      },
     {
         id: 8,
         title: "gratte ciel",
-        imgpath: "../assets/architecture2.jpg",
+        src: architecture2,
         description: "un gratte ciel a dubai",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "architecture",
      },
      {
         id: 9,
         title: "robot",
-        imgpath: "../assets/techno5.jpg",
+        src: techno5,
         description: "robot du futur",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "technology",
      },
      {
         id: 10,
         title: "tigre",
-        imgpath: "../assets/animal3.jpg",
+        src: animal3,
         description: "un tigre qui court dans la prairie",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "animals",
      },
      {
         id: 11,
         title: "homme souriant",
-        imgpath: "../assets/people3.jpg",
+        src: people3,
         description: "une femme qui sourit a la vie",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "people",
      },
      // --- Suite de la galerie ---
      {
         id: 12,
         title: "Loup solitaire",
-        imgpath: "../assets/animal4.jpg",
+        src: animal4,
         description: "Un loup hurlant à la pleine lune, image puissante.",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "animals",
      },
      {
         id: 13,
         title: "Éléphant d'Afrique",
-        imgpath: "../assets/animal5.jpg",
+        src: animal5,
         description: "Un majestueux éléphant marchant au coucher du soleil.",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "animals",
      },
      {
         id: 14,
         title: "Vieille ville",
-        imgpath: "../assets/architecture1.jpg",
+        src: architecture1,
         description: "Une rue pavée dans une vieille ville européenne.",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "architecture",
      },
      {
         id: 15,
         title: "Pont moderne",
-        imgpath: "../assets/architecture3.jpg",
+        src: architecture3,
         description: "Structure élégante d'un pont en béton et acier.",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "architecture",
      },
      {
         id: 16,
         title: "Musée d'art",
-        imgpath: "../assets/architecture5.jpg",
+        src: architecture5,
         description: "Façade d'un musée avec des formes géométriques.",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "architecture",
      },
      {
         id: 17,
         title: "Forêt enchantée",
-        imgpath: "../assets/nature1.jpg",
+        src: nature1,
         description: "Chemin à travers une forêt dense et brumeuse.",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "nature",
      },
      {
         id: 18,
         title: "Cascade",
-        imgpath: "../assets/nature4.jpg",
+        src: nature4,
         description: "L'eau dévale les rochers avec puissance.",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "nature",
      },
      {
         id: 19,
         title: "Plage tropicale",
-        imgpath: "../assets/nature5.jpg",
+        src: nature5,
         description: "Palmiers et sable blanc sous un ciel bleu.",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "nature",
      },
      {
         id: 20,
         title: "Portrait",
-        imgpath: "../assets/people1.jpg",
+        src: people1,
         description: "Un portrait en gros plan avec une expression intense.",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "people",
      },
      {
         id: 21,
         title: "Randonneurs",
-        imgpath: "../assets/people4.jpg",
+        src: people4,
         description: "Des amis admirant le paysage depuis un sommet.",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "people",
      },
      {
         id: 22,
         title: "Étudiant",
-        imgpath: "../assets/people5.jpg",
+        src: people5,
         description: "Un étudiant concentré travaillant sur son ordinateur.",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "people",
      },
      {
         id: 23,
         title: "Code binaire",
-        imgpath: "../assets/techno1.jpg",
+        src: techno1,
         description: "Des lignes de code binaire sur un écran noir.",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "technology",
      },
      {
         id: 24,
         title: "Intelligence Artificielle",
-        imgpath: "../assets/techno3.jpg",
+        src: techno3,
         description: "Une visualisation abstraite d'un cerveau numérique.",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "technology",
      },
      {
         id: 25,
         title: "Casque VR",
-        imgpath: "../assets/techno4.jpg",
+        src: techno4,
         description: "Exploration de la réalité virtuelle et du métavers.",
-        likeNumber:0 ,
+        likes: 0,
+        dislikes: 0,
         category: "technology",
      },
     
 ];
 
 
-const category = [
+const categories = [
+  "all",
   "nature",
   "architecture",
   "animals",
@@ -214,4 +266,4 @@ const category = [
 ];
 
 
-export {gallery, category};
+export {gallery, categories};
