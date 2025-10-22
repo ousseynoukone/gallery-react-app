@@ -14,10 +14,11 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState("all")
   const [selectedImage, setSelectedImage] = useState(null)
 
-  // Filtrer par category
-  const filteredGallery = selectedCategory === "all" 
+  // Filtrer par category et trier par likes (du plus liké au moins liké)
+  const filteredGallery = (selectedCategory === "all" 
     ? galleryData 
     : galleryData.filter(img => img.category === selectedCategory)
+  ).sort((a, b) => b.likes - a.likes)
 
   //Si on choisit la categorie
   const handleCategoryChange = (category) => {
