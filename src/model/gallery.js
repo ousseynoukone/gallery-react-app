@@ -81,15 +81,125 @@ const gallery = [
      },
      {
         id: 11,
-        title: "homme  souriant",
+        title: "homme souriant",
         imgpath: "../assets/people3.jpg",
         description: "une femme qui sourit a la vie",
         likeNumber:0 ,
         category: "people",
      },
+     // --- Suite de la galerie ---
      {
-        
-     }
+        id: 12,
+        title: "Loup solitaire",
+        imgpath: "../assets/animal4.jpg",
+        description: "Un loup hurlant à la pleine lune, image puissante.",
+        likeNumber:0 ,
+        category: "animals",
+     },
+     {
+        id: 13,
+        title: "Éléphant d'Afrique",
+        imgpath: "../assets/animal5.jpg",
+        description: "Un majestueux éléphant marchant au coucher du soleil.",
+        likeNumber:0 ,
+        category: "animals",
+     },
+     {
+        id: 14,
+        title: "Vieille ville",
+        imgpath: "../assets/architecture1.jpg",
+        description: "Une rue pavée dans une vieille ville européenne.",
+        likeNumber:0 ,
+        category: "architecture",
+     },
+     {
+        id: 15,
+        title: "Pont moderne",
+        imgpath: "../assets/architecture3.jpg",
+        description: "Structure élégante d'un pont en béton et acier.",
+        likeNumber:0 ,
+        category: "architecture",
+     },
+     {
+        id: 16,
+        title: "Musée d'art",
+        imgpath: "../assets/architecture5.jpg",
+        description: "Façade d'un musée avec des formes géométriques.",
+        likeNumber:0 ,
+        category: "architecture",
+     },
+     {
+        id: 17,
+        title: "Forêt enchantée",
+        imgpath: "../assets/nature1.jpg",
+        description: "Chemin à travers une forêt dense et brumeuse.",
+        likeNumber:0 ,
+        category: "nature",
+     },
+     {
+        id: 18,
+        title: "Cascade",
+        imgpath: "../assets/nature4.jpg",
+        description: "L'eau dévale les rochers avec puissance.",
+        likeNumber:0 ,
+        category: "nature",
+     },
+     {
+        id: 19,
+        title: "Plage tropicale",
+        imgpath: "../assets/nature5.jpg",
+        description: "Palmiers et sable blanc sous un ciel bleu.",
+        likeNumber:0 ,
+        category: "nature",
+     },
+     {
+        id: 20,
+        title: "Portrait",
+        imgpath: "../assets/people1.jpg",
+        description: "Un portrait en gros plan avec une expression intense.",
+        likeNumber:0 ,
+        category: "people",
+     },
+     {
+        id: 21,
+        title: "Randonneurs",
+        imgpath: "../assets/people4.jpg",
+        description: "Des amis admirant le paysage depuis un sommet.",
+        likeNumber:0 ,
+        category: "people",
+     },
+     {
+        id: 22,
+        title: "Étudiant",
+        imgpath: "../assets/people5.jpg",
+        description: "Un étudiant concentré travaillant sur son ordinateur.",
+        likeNumber:0 ,
+        category: "people",
+     },
+     {
+        id: 23,
+        title: "Code binaire",
+        imgpath: "../assets/techno1.jpg",
+        description: "Des lignes de code binaire sur un écran noir.",
+        likeNumber:0 ,
+        category: "technology",
+     },
+     {
+        id: 24,
+        title: "Intelligence Artificielle",
+        imgpath: "../assets/techno3.jpg",
+        description: "Une visualisation abstraite d'un cerveau numérique.",
+        likeNumber:0 ,
+        category: "technology",
+     },
+     {
+        id: 25,
+        title: "Casque VR",
+        imgpath: "../assets/techno4.jpg",
+        description: "Exploration de la réalité virtuelle et du métavers.",
+        likeNumber:0 ,
+        category: "technology",
+     },
     
 ];
 
@@ -102,3 +212,6 @@ const category = [
   "people",
 
 ];
+
+
+export {gallery, category};
